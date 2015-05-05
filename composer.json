@@ -1,0 +1,32 @@
+{
+  "name": "konstantin-kuklin/dto-entity-converter-library",
+  "type": "library",
+  "description": "Functionality for converting data from one format to another.",
+  "keywords": ["php", "library"],
+  "homepage": "https://github.com/KonstantinKuklin/DtoEntityConverter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Konstantin Kuklin",
+      "email": "konstantin.kuklin@gmail.com"
+    }
+  ],
+  "require": {
+    "zendframework/zendframework": "2.4.0"
+  },
+
+  "require-dev": {
+  },
+
+  "autoload": {
+    "classmap": [
+      "src/DtoEntityConverter"
+    ]
+  },
+
+  "autoload-dev": {
+    "classmap": [
+      "tests/DtoEntityConverter"
+    ]
+  }
+}
